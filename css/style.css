@@ -1,0 +1,94 @@
+:root{
+    --color-dark-cyan: hsl(185, 75%, 39%);
+    --color-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --color-dark-grayish-blue: hsl(227, 10%, 46%);
+    --color-dark-gray: hsl(0, 0%, 59%);
+}
+
+body{ 
+    font-family: 'Kumbh Sans';
+    background: right 52vw bottom 35vh no-repeat url(../images/bg-pattern-top.svg), 
+    left 55vw top 35vh no-repeat url(../images/bg-pattern-bottom.svg), var(--color-dark-cyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    background-color: white;
+    width:21rem;
+    border-radius: 20px;
+    text-align: center;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.profile{
+    padding-top: 5rem;
+}
+
+.profile img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.infos{
+    padding: 1.5rem;
+    border-bottom: 1px solid #e7e1e1d7;
+}
+
+.infos-pessoal{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    padding-bottom: .8rem;
+    font-size: 1.1rem;
+
+}
+
+.infos-name {
+    font-weight: 700;
+}
+
+.infos-age{
+    color:var(--color-dark-grayish-blue);
+}
+
+.infos-country {
+    color: var(--color-dark-gray);
+    font-size:.9rem;
+}
+
+.social {
+    display:flex;
+    justify-content:space-around;
+    padding: 1.5rem 1rem;
+}
+
+.number{
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-bottom:.4rem;
+}
+
+.sub{
+    font-size: .6rem;
+    letter-spacing: .1rem;
+    color:var(--color-dark-gray);
+}
+
+.footer{
+    text-align: center;
+    font-size: .8rem;
+    padding-top: 1rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color:darkblue;
+}
